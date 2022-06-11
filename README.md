@@ -1,13 +1,5 @@
 # CRM-Sale-Force-App-React-Native-
 CRM-Sale-Force-App-React-Native <br/>
-![alt text](./ScreenShots/addPhoneCall.jpg)
-![alt text](./ScreenShots/addPhoneCall.jpg)
-![alt text](./ScreenShots/addVisit.jpg)
-![alt text](./ScreenShots/Drawer.jpg)
-![alt text](./ScreenShots/Home1.jpg)
-![alt text](./ScreenShots/Home2.jpg)
-![alt text](./ScreenShots/Home3.jpg)
-![alt text](./ScreenShots/login.jpg)
-![alt text](./ScreenShots/Offer.jpg)
-![alt text](./ScreenShots/opportunity.jpg)
-![alt text](./ScreenShots/opportunityDetail.jpg)
+![alt text](./ScreenShots/loginScreen.png  width="200" height="400")
+
+![alt text](./ScreenShots/loginScreen.png)
