@@ -19,19 +19,19 @@ function Login({ navigation }) {
             />
             <WhiteSpace></WhiteSpace>
             <WhiteSpace></WhiteSpace>
-            <Text style={LoginStyles.HeaderText}>Hoşgeldiniz..</Text>
+            <Text style={LoginStyles.HeaderText}>Wellcome..</Text>
 
 
 
 
 
-            <Text style={LoginStyles.InputText}> Kullanıcı Adı : </Text>
+            <Text style={LoginStyles.InputText}> UserName : </Text>
             <TextInput
                 style={LoginStyles.TextInput}
                 //onChangeText={onChangeText}
                 value=""
             />
-            <Text style={LoginStyles.InputTextPassword}> Şifre : </Text>
+            <Text style={LoginStyles.InputTextPassword}> Password : </Text>
             <TextInput style={LoginStyles.TextInput}
                 //onChangeText={onChangeText}
                 value="" />
@@ -41,8 +41,8 @@ function Login({ navigation }) {
                 title="sadsad"
                 type="primary"
                 onPress={() => navigation.navigate('Home')}
-            >Giriş</Button>
-            <Text style={LoginStyles.ForgetPasswordText}>Şifremi unuttum  </Text>
+            >Login</Button>
+            <Text style={LoginStyles.ForgetPasswordText}>Forgot Password</Text>
         </View>
     );
 }

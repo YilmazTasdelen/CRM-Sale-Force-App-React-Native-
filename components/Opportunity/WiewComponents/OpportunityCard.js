@@ -33,12 +33,12 @@ function OpportunityCard(props) {
                     <WingBlank style={OpportunityStyles.CardWingBlank}>
                         <Flex>
                             <Flex.Item style={OpportunityStyles.CardFlexItem}>
-                                <Text style={OpportunityStyles.cardTextFlexItem}>cihaz Adeti :
+                                <Text style={OpportunityStyles.cardTextFlexItem}>Device Count :
                                     {props.deviceCount}
                                 </Text>
                             </Flex.Item>
                             <Flex.Item style={OpportunityStyles.CardFlexItem}>
-                                <Text style={OpportunityStyles.cardTextFlexItem}>Şehir :
+                                <Text style={OpportunityStyles.cardTextFlexItem}>City :
                                     {props.city}
                                 </Text>
                             </Flex.Item>

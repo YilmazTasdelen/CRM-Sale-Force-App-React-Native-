@@ -8,24 +8,24 @@ const useOpportunity = () => {
   const customerStaticList = [
       {
         "id": 1,
-        "customer": "ARMARİN BİLİŞİM SİSTEMLERİ AŞ",
-        "text": "Teklif Verildi",
+        "customer": "Test Customer 1",
+        "text": " Offer Made",
         "deviceCount": "2",
-       "city": "Çanakkale"
+       "city": "City 1"
       },
      {
         "id": 2,
-        "customer": "AYTAŞLAR ULUSLARARASI NAKLİYAT İTHALAT İHRACAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
-        "text": "Teklif Verildi",
+        "customer": "Test Customer 2 with long name Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "text": " Offer Made",
         "deviceCount": "6",
-       "city": "İstanbol"
+        "city": "City 2"
       },
     {
         "id": 3,
-        "customer": "XYZ SYSTEMS ASD AŞ",
-        "text": "Teklif Verildi",
+        "customer": "Test Customer 3",
+        "text": " Offer Made",
         "deviceCount": "2",
-       "city": "Ankara"
+        "city": "City 3"
       }
     ];
 

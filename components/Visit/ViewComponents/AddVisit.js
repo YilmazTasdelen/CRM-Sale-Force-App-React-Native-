@@ -24,11 +24,11 @@ function AddVisit({ navigation }) {
         <ScrollView style={VisitStyles.ScrollView}>
             <List>
                 <Item thumb={headerIcon()}>
-                    <Text style={{ fontWeight: 'bold', color: 'black' }}>Yeni Görüşme</Text>
+                    <Text style={{ fontWeight: 'bold', color: 'black' }}>New Visit</Text>
                 </Item>
 
                 <Item thumb={tickIcon()}>
-                    <Text style={{ fontSize: 12, fontWeight: 'bold', color: 'black', marginBottom: 5 }}>Görüşülen Kişi:</Text>
+                    <Text style={{ fontSize: 12, fontWeight: 'bold', color: 'black', marginBottom: 5 }}>Customer:</Text>
                     <View style={{ flexDirection: 'row' }}>
 
                         <TextInput
@@ -42,7 +42,7 @@ function AddVisit({ navigation }) {
                 <Item thumb={tickIcon()}>
                     <Flex>
                         <Flex.Item style={VisitStyles.Flex}>
-                            <Text style={VisitStyles.RowLabel}>Araç Sayısı:</Text>
+                            <Text style={VisitStyles.RowLabel}>Product Count:</Text>
                             <View style={{ flexDirection: 'row' }}>
 
                                 <TextInput
@@ -53,7 +53,7 @@ function AddVisit({ navigation }) {
                             </View>
                         </Flex.Item>
                         <Flex.Item style={VisitStyles.Flex}>
-                            <Text style={VisitStyles.RowLabel}>Satış Gerçekleşme Oranı:</Text>
+                            <Text style={VisitStyles.RowLabel}>Sale Order:</Text>
                             <View style={{ flexDirection: 'row' }}>
 
                                 <TextInput
@@ -67,7 +67,7 @@ function AddVisit({ navigation }) {
                 </Item>
 
                 <Item thumb={tickIcon()}>
-                    <Text style={VisitStyles.RowLabel}>Oluşturma Tarihi:</Text>
+                    <Text style={VisitStyles.RowLabel}>Create Date:</Text>
                     <View style={{ flexDirection: 'row' }}>
 
                         <TextInput
@@ -88,7 +88,7 @@ function AddVisit({ navigation }) {
                 </Item>
 
                 <Item thumb={tickIcon()}>
-                    <Text style={VisitStyles.RowLabel}>Başlama Tarihi:</Text>
+                    <Text style={VisitStyles.RowLabel}>Start Date:</Text>
                     <View style={{ flexDirection: 'row' }}>
 
                         <TextInput
@@ -109,7 +109,7 @@ function AddVisit({ navigation }) {
                 </Item>
 
                 <Item thumb={tickIcon()}>
-                    <Text style={VisitStyles.RowLabel}>Bitiş Tarihi:</Text>
+                    <Text style={VisitStyles.RowLabel}>Finish Date:</Text>
                     <View style={{ flexDirection: 'row' }}>
 
                         <TextInput
@@ -130,7 +130,7 @@ function AddVisit({ navigation }) {
                 </Item>
 
                 <Item thumb={phoneIcon()}>
-                    <Text style={VisitStyles.RowLabel}>Görüşülen Kişi Telefon    :
+                    <Text style={VisitStyles.RowLabel}>Customer Phone    :
                     </Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
@@ -142,7 +142,7 @@ function AddVisit({ navigation }) {
                 </Item>
 
                 <Item thumb={tickIcon()}>
-                    <Text style={VisitStyles.RowLabel}>Sektör    :
+                    <Text style={VisitStyles.RowLabel}>Market Place    :
                     </Text>
                     <View style={{ flexDirection: 'row' }}>
 
@@ -155,7 +155,7 @@ function AddVisit({ navigation }) {
                 </Item>
 
                 <Item thumb={tickIcon()}>
-                    <Text style={VisitStyles.RowLabel}>Müşteri Gereksinimi:</Text>
+                    <Text style={VisitStyles.RowLabel}>Customer Need:</Text>
                     <View style={{ flexDirection: 'row' }}>
 
                         <TextInput
@@ -170,7 +170,7 @@ function AddVisit({ navigation }) {
                 </Item>
 
                 <Item thumb={tickIcon()}>
-                    <Text style={VisitStyles.RowLabel}>Sunulan Çözüm:</Text>
+                    <Text style={VisitStyles.RowLabel}>Solution:</Text>
                     <View style={{ flexDirection: 'row' }}>
 
                         <TextInput
@@ -183,7 +183,7 @@ function AddVisit({ navigation }) {
 
                     </View>
                 </Item>
-
+{/* 
                 <Item thumb={tickIcon()}>
                     <Text style={VisitStyles.RowLabel}>Açıklama:</Text>
                     <View style={{ flexDirection: 'row' }}>
@@ -197,14 +197,14 @@ function AddVisit({ navigation }) {
                         />
 
                     </View>
-                </Item>
+                </Item> */}
 
             </List>
             <Pressable
                 style={VisitStyles.Pressable}
             // onPress={onPress}
             >
-                <Text style={VisitStyles.PressableText}>  Görüşme Ekle (Konum Kaydet)</Text>
+                <Text style={VisitStyles.PressableText}>  Add Visit (Record Location)</Text>
             </Pressable>
         </ScrollView>
     );

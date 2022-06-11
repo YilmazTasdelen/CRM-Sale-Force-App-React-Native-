@@ -24,8 +24,8 @@ function OpportunityDetail({ navigation }) {
                     <WingBlank>
                         <Flex>
                             <Flex.Item style={OpportunityDetailStyles.HeaderWinkBlank}>
-                                <Text style={OpportunityDetailStyles.HeaderTitle}>BİRLİK DİJİTAL YAY.ALC. TLKOM. HİZ. TUR. TAŞ. SAN. VE TİC. LTD. ŞTİ.</Text>
-                                <Text style={OpportunityDetailStyles.HeaderTitle}>Durum : Kazanıldı</Text>
+                                <Text style={OpportunityDetailStyles.HeaderTitle}>Customer Company Name ..</Text>
+                                <Text style={OpportunityDetailStyles.HeaderTitle}>Status : Won</Text>
                             </Flex.Item>
                         </Flex>
                     </WingBlank>
@@ -45,54 +45,54 @@ function OpportunityDetail({ navigation }) {
             </View >
 
 
-            <List renderHeader={'Fırsat Bilgileri'}>
+            <List renderHeader={'Opportunity Details'}>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={OpportunityDetailStyles.ListLabel}>Fırsat Kyanağı :
+                    <Text style={OpportunityDetailStyles.ListLabel}>Opportunity Source :
                         <Text style={OpportunityDetailStyles.ListText}>Bayii-portföyü</Text> </Text>
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={OpportunityDetailStyles.ListLabel}>Bayi Portföyü Cihaz Adeti :
+                    <Text style={OpportunityDetailStyles.ListLabel}>Product Count :
                         <Text style={OpportunityDetailStyles.ListText}>1</Text> </Text>
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={OpportunityDetailStyles.ListLabel}>Müşteri Yöneticisi    :
+                    <Text style={OpportunityDetailStyles.ListLabel}> Salesman    :
                         <Text style={OpportunityDetailStyles.ListText}>Yılmaz Taşdelen</Text> </Text>
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={OpportunityDetailStyles.ListLabel}>Oluşturma Tarihi    :
+                    <Text style={OpportunityDetailStyles.ListLabel}>Create Date    :
                         <Text style={OpportunityDetailStyles.ListText}>3.6.202216:39</Text> </Text>
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={OpportunityDetailStyles.ListLabel}>Görüşme Tarihi Kontrol    :
-                        <Text sstyle={OpportunityDetailStyles.ListText}>3.6.202216:39</Text> </Text>
+                    <Text style={OpportunityDetailStyles.ListLabel}>Meeting Contol Date    :
+                        <Text sstyle={OpportunityDetailStyles.ListText}> 3.6.2022 16:39</Text> </Text>
                 </Item>
 
 
                 <Item thumb={thumbUrl()}>
                     <Flex>
                         <Flex.Item style={OpportunityDetailStyles.CityLabel}>
-                            <Text style={OpportunityDetailStyles.CityText}>Şehir:{"\n"}
+                            <Text style={OpportunityDetailStyles.CityText}>City:{"\n"}
                                 <Text style={OpportunityDetailStyles.CityValue}>İstanbul</Text></Text>
                         </Flex.Item>
                         <Flex.Item style={OpportunityDetailStyles.CityLabel}>
-                            <Text style={OpportunityDetailStyles.CityText}>İlçe:{"\n"}
+                            <Text style={OpportunityDetailStyles.CityText}>County:{"\n"}
                                 <Text style={OpportunityDetailStyles.CityValue}>Anadolu</Text></Text>
                         </Flex.Item>
                     </Flex>
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={OpportunityDetailStyles.ListLabel}>Açıklama   :
+                    <Text style={OpportunityDetailStyles.ListLabel}>Description   :
                         <Text style={OpportunityDetailStyles.ListText}>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text> </Text>
                 </Item>
 
                 <Item thumb={phoneUrl()}>
-                    <Text style={OpportunityDetailStyles.ListLabel}>Müşteri Ara   :
+                    <Text style={OpportunityDetailStyles.ListLabel}>Call Customer (Click)   :
                         <Text style={OpportunityDetailStyles.ListText}> 507 979 9369</Text> </Text>
                 </Item>
             </List>
@@ -106,7 +106,7 @@ function OpportunityDetail({ navigation }) {
                         style={OpportunityDetailStyles.PressableBlue}
                         onPress={() => navigation.navigate('AddVisit')} >
                         <Text style={OpportunityDetailStyles.PressableText}>
-                        Tel. Gör. Ekle</Text>
+                        Add Phone Call</Text>
                     </Pressable>
                 </Flex.Item>
 
@@ -115,7 +115,7 @@ function OpportunityDetail({ navigation }) {
                         style={OpportunityDetailStyles.PressableYellow}
                         onPress={() => navigation.navigate('AddPhoneCall')} >
                         <Text style={OpportunityDetailStyles.PressableText}>
-                        Tel. Gör. Ekle</Text>
+                        Add Visit</Text>
                     </Pressable>
                 </Flex.Item>
             </Flex>
@@ -126,7 +126,7 @@ function OpportunityDetail({ navigation }) {
                         style={OpportunityDetailStyles.PressableRed}
                         onPress={() => navigation.navigate('AddPhoneCall')} >
                         <Text style={OpportunityDetailStyles.PressableText}>
-                        Tel. Gör. Ekle</Text>
+                        Extend Offer</Text>
                     </Pressable>
                 </Flex.Item>
                 <Flex.Item style={OpportunityDetailStyles.ButtonFlex}>
@@ -134,7 +134,7 @@ function OpportunityDetail({ navigation }) {
                         style={OpportunityDetailStyles.PressableGreen}
                         onPress={() => navigation.navigate('AddPhoneCall')} >
                         <Text style={OpportunityDetailStyles.PressableText}>
-                            Siparie Çevir</Text>
+                        Convert t Order</Text>
                     </Pressable>
                 </Flex.Item>
             </Flex>

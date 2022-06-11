@@ -52,7 +52,7 @@ export const HeaderContainers = StyleSheet.create({
     backgroundColor: '#108ee9',
 });
 
-export const labels = ["pot.müşteri", "tel.gör.ek.", "randevu", "görüşme", "teklif", "sipariş"];
+export const labels = ["potential", "Phone Call", "Meeting", "Inerview", "Offer", "Order"];
 
 export const currentPosition = 3;
 

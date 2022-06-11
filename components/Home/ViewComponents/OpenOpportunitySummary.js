@@ -36,15 +36,15 @@ function OpenOpportunitySummary({ navigation }) {
 
 
             <Text style={HomeStyles.openOppurtunityTitle}>
-                Açık Fırsatlar
+                Open Opportunities
             </Text>
 
 
-            <ClosedOpportunityCard navigation={navigation} color={'#4ecf9d'} title={'Telefon Görüşmesi Yapılanlar'} text={21} />
+            <ClosedOpportunityCard navigation={navigation} color={'#4ecf9d'} title={'Phone Calls Made'} text={21} />
             {/* offer card  */}
-            <ClosedOpportunityCard navigation={navigation} color={'#e6c67a'} title={'Teklif Verilenler'} text={15} />
+            <ClosedOpportunityCard navigation={navigation} color={'#e6c67a'} title={'Bids Offered'} text={15} />
             {/* extra time card  */}
-            <ClosedOpportunityCard navigation={navigation} color={'#4b92d9'} title={'Randevular'} text={3} />
+            <ClosedOpportunityCard navigation={navigation} color={'#4b92d9'} title={'Appointments'} text={3} />
             {/* lose card  */}
         </View>
     );

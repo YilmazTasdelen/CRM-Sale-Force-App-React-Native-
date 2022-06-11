@@ -30,19 +30,19 @@ function AddPhoneCall({ navigation }) {
    
     return (
         <ScrollView style={PhoneCallStyles.ScrollViewContainer}>
-            <List renderHeader={'Yeni Telefon Görüşmesi'}>
+            <List renderHeader={'New Phone Call'}>
                 <Item style={{ marginTop: 7 }}>
                     <View style={{ flexDirection: 'row' }}>
                         <TouchableOpacity >
                             <Image source={require('../../../files/offerListIcon.png')}
                                 style={PhoneCallStyles.HeaderIcon} />
                         </TouchableOpacity>
-                        <Text style={PhoneCallStyles.HeaderText}>Genel Bilgiler</Text>
+                        <Text style={PhoneCallStyles.HeaderText}>General Info</Text>
                     </View>
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={PhoneCallStyles.ListLabel}>Oluşturma Tarihi:</Text>
+                    <Text style={PhoneCallStyles.ListLabel}>Create Date:</Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
                             style={PhoneCallStyles.ListInput}
@@ -62,7 +62,7 @@ function AddPhoneCall({ navigation }) {
                     />
                 </Item>
 
-                <Item thumb={thumbUrl()}>
+                {/* <Item thumb={thumbUrl()}>
                     <Text style={PhoneCallStyles.ListLabel}>Oluşturma Tarihi:</Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
@@ -81,10 +81,10 @@ function AddPhoneCall({ navigation }) {
                         onConfirm={handleConfirm}
                         onCancel={hideDatePicker}
                     />
-                </Item>
+                </Item> */}
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={PhoneCallStyles.ListLabel}>Yön:</Text>
+                    <Text style={PhoneCallStyles.ListLabel}>Direction:</Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
                             style={PhoneCallStyles.ListInput}
@@ -101,7 +101,7 @@ function AddPhoneCall({ navigation }) {
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={PhoneCallStyles.ListLabel}>Aranan Text:</Text>
+                    <Text style={PhoneCallStyles.ListLabel}>Text:</Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
                             style={PhoneCallStyles.ListInput}
@@ -112,7 +112,7 @@ function AddPhoneCall({ navigation }) {
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={PhoneCallStyles.ListLabel}>Açıklama:</Text>
+                    <Text style={PhoneCallStyles.ListLabel}>Description:</Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
                             multiline
@@ -131,12 +131,12 @@ function AddPhoneCall({ navigation }) {
                             <Image source={require('../../../files/offerListIcon.png')}
                                 style={PhoneCallStyles.HeaderIcon} />
                         </TouchableOpacity>
-                        <Text style={{ fontWeight: 'bold', color: 'black', fontSize: 13 }}>Müşteri Bilgileri</Text>
+                        <Text style={{ fontWeight: 'bold', color: 'black', fontSize: 13 }}>Customer Info</Text>
                     </View>
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={PhoneCallStyles.ListLabel}>İlgili Kişi:</Text>
+                    <Text style={PhoneCallStyles.ListLabel}>Customer:</Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
                             style={PhoneCallStyles.ListInput}
@@ -147,7 +147,7 @@ function AddPhoneCall({ navigation }) {
                 </Item>
 
                 <Item thumb={thumbUrl()}>
-                    <Text style={PhoneCallStyles.ListLabel}>İlgili Kişi Email:</Text>
+                    <Text style={PhoneCallStyles.ListLabel}>Email:</Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
                             style={PhoneCallStyles.ListInput}
@@ -158,7 +158,7 @@ function AddPhoneCall({ navigation }) {
                 </Item>
 
                 <Item thumb={phoneUrl()}>
-                    <Text style={PhoneCallStyles.ListLabel}>İlgili Kişi Telefon:</Text>
+                    <Text style={PhoneCallStyles.ListLabel}>Phone:</Text>
                     <View style={{ flexDirection: 'row' }}>
                         <TextInput
                             style={PhoneCallStyles.ListInput}
@@ -173,7 +173,7 @@ function AddPhoneCall({ navigation }) {
                 style={PhoneCallStyles.SubmitButton}
             // onPress={onPress}
             >
-                <Text style={PhoneCallStyles.SubmitButtonText}>  Telefon Görüşmesini Ekle</Text>
+                <Text style={PhoneCallStyles.SubmitButtonText}>  Add Phone Call</Text>
             </Pressable>
 
         </ScrollView>

@@ -13,7 +13,7 @@ function OpportunityListTitle({ navigation }) {
                     <Image source={require('../../../files/opportunityListTitleIcon.png')}
                         style={OpportunityStyles.ListTitleIcon} />
                 </TouchableOpacity>
-                <Text style={OpportunityStyles.ListTitleText}>Fırsatlar</Text>
+                <Text style={OpportunityStyles.ListTitleText}>Opportunities</Text>
             </View>
         </Item>
     );

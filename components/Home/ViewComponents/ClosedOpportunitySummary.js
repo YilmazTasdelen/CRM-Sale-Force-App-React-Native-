@@ -24,18 +24,18 @@ function ClosedOpportunitySummary({ navigation }) {
                 </View>
             </View>
             <Text style={HomeStyles.titleAfterPieChart}>
-                Kapalı Fırsatlar
+                Closed Opportunities
             </Text>
 
             <ScrollView >
                   {/* order card  */}
-                    <ClosedOpportunityCard navigation={navigation} color={'#4ecf9d'} title={'Siparişe Çevrilen'} text={21}/>
+                    <ClosedOpportunityCard navigation={navigation} color={'#4ecf9d'} title={'Converted to Order'} text={21}/>
                     {/* offer card  */}
-                    <ClosedOpportunityCard navigation={navigation} color={'#e6c67a'} title={'Teklif Verilen'} text={15}/>
+                    <ClosedOpportunityCard navigation={navigation} color={'#e6c67a'} title={'Offered'} text={15}/>
                       {/* extra time card  */}
-                    <ClosedOpportunityCard navigation={navigation} color={'#4b92d9'} title={'Süre Uzatılan'} text={3}/>
+                    <ClosedOpportunityCard navigation={navigation} color={'#4b92d9'} title={'Extended Time'} text={3}/>
                      {/* lose card  */}
-                    <ClosedOpportunityCard navigation={navigation} color={'#e37f7f'} title={'Kaybedilen'} text={3}/>
+                    <ClosedOpportunityCard navigation={navigation} color={'#e37f7f'} title={'Lost'} text={3}/>
             </ScrollView>
         </View>
     );

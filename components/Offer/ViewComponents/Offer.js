@@ -39,15 +39,15 @@ function Offer({ navigation }) {
                                     marginRight: 15
                                 }} />
                         </TouchableOpacity>
-                        <Text style={{ fontWeight: 'bold', color: 'black', marginTop: 5, fontSize: 18 }}>Teklifler</Text>
+                        <Text style={{ fontWeight: 'bold', color: 'black', marginTop: 5, fontSize: 18 }}>Offers</Text>
                     </View>
 
                 </Item>
 
-                <OfferCard navigation={navigation} status={'Satış Gerçekleşti'} customer={'ARVENTO MOBİLE SYSTEM SERVİCES CO.'} result={'Aramış olduğunuz firmaya satış yapılmıştır.'} />
-                <OfferCard navigation={navigation} status={'Satış gerçekleşmedi'} customer={'AYTAŞLAR ULUSLARARASI NAKLİYAT İTHALAT İHRACAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ'} result={'Arama yaptığınız firma için satış gerçekleşmemiştir.'} />
-                <OfferCard navigation={navigation} status={'Görüşmeye Uygun'} customer={'ARMARİN BİLİŞİM SİSTEMLERİ AŞ'} result={'Müşteri görüşmeye uygundur. Devir işlemi için bölge yöneticiniz ile görüşmeniz gerekmektedir.'} />
-                <OfferCard navigation={navigation} status={'Görüşme Devam Ediyor'} customer={'AYŞE GÜLÇİN GÜVEN BAYRAKTAROĞLU'} result={'Firması ile görüşmeler devam etmektedir.'} />
+                <OfferCard navigation={navigation} status={'The Sale Has Been Made'} customer={'Customer company Name 1'} result={'The company you have called has been sold.'} />
+                <OfferCard navigation={navigation} status={'The sale did not take place'} customer={'Customer company Name 2'} result={'No sales were made for the company you searched for.'} />
+                <OfferCard navigation={navigation} status={'Available for Interview'} customer={'Customer company Name 3'} result={'The customer is available to negotiate. You need to contact your regional manager for the transfer process.'} />
+                <OfferCard navigation={navigation} status={'Conversation Continues'} customer={'Customer company Name 4'} result={'Negotiations with the company continue.'} />
 
             </List>
         </ScrollView >

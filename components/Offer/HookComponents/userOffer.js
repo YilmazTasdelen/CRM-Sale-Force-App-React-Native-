@@ -5,9 +5,9 @@ const userOffer = () => {
     const [open, setOpen] = useState(false);
     const [value, setValue] = useState(null);
     const [items, setItems] = useState([
-        { label: 'TC Kimlik', value: 'TC Kimlik' },
-        { label: 'Vergi No', value: 'Vergi No' },
-        { label: 'Firma', value: 'Firma' }
+        { label: 'SSN Number', value: 'SSN Number' },
+        { label: 'Text Number', value: 'Text Number' },
+        { label: 'Company Name', value: 'Company Name' }
     ]);
     const onChange = (activeSections) =>{
         setActiveSections(activeSections)

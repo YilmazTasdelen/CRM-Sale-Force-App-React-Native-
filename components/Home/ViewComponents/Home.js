@@ -27,7 +27,7 @@ function Home({ navigation }) {
                 setOpen={setOpen}
                 setValue={setValue}
                 setItems={setItems}
-                placeholder="Kriter"
+                placeholder="Type"
                 style={{ width: width - 10, margin: 5 }}
             />
 

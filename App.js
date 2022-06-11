@@ -62,8 +62,9 @@ const Drawer = createDrawerNavigator();
 const DrawerNavigator = () => {
  return (
 <Drawer.Navigator>
-        <Drawer.Screen name="StackNavigator"     component={StackNavigator}   options={{ headerShown: false,}} />
+       
         <Drawer.Screen name="Login"             component={Login}             options={{ headerShown: false,tabBarStyle: { display: 'none' } }} />
+        <Drawer.Screen name="Logout"     component={StackNavigator}   options={{ headerShown: false,}} />
         <Drawer.Screen name="Home"              component={Home}              options={constants.showInDrawer} />
         <Drawer.Screen name="Opportunity"       component={Opportunity}       options={constants.showInDrawer} />
         <Drawer.Screen name="Offer"             component={Offer}             options={constants.showInDrawer} />

@@ -27,20 +27,20 @@ function OfferForm({ navigation }) {
                 setOpen={setOpen}
                 setValue={setValue}
                 setItems={setItems}
-                placeholder="Kriter"
+                placeholder="Filter"
                 style={OfferStyles.offerFormDropdown}
             />
             <TextInput
                 style={OfferStyles.offerFormTextInput}
                 //onChangeText={onChangeText}
-                value="Arvento ..."
+                value="Search"
             />
             <Pressable
                 style={OfferStyles.offerFormPressable}
             // onPress={onPress}
             >
                 <Text style={OfferStyles.offerFormText}>
-                    Teklif Ara (Yetkiye göre)
+                Search for Offers (by Authorization)
                 </Text>
             </Pressable>
         </View >
